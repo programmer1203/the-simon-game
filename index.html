@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="rules">Rules of the game : </h1>
+    <p>At every level the computer will flash one button and the user has to memorize the sequence starting from the level 1 and click the buttons in that order. For example : </p>
+    <ul>
+        <li>If computer flashes the green button, click on the green button.</li>
+        <li>Now you are at level 2.</li>
+        <li>The computer now flashes the red button, but this time you have to click the buttons in sequence starting from level 1, i.e., click on the green button first and then the red. </li>
+    </ul>
+
+    <button class="enter">Enter the game</button>
+
+
+   <h1 class="start visibility">Press any key to start the game.</h1>
+   
+
+    <div class="container visibility">
+        <button class="btn" id="green"></button>
+        <button class="btn" id="red"></button>
+        <button class="btn" id="yellow"></button>
+        <button class="btn" id="blue"></button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
